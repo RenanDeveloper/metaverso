@@ -8,8 +8,41 @@ body{
     margin: 0 auto;
     padding: 1em;
     text-align: justify;
+    color: #FFF;
+    background-repeat: round;
+    background: rgb(2,0,36);
+background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(146,146,232,1) 61%, rgba(0,212,255,1) 100%);
 }
 
 h1{
     text-align: center;
+    text-shadow: 1px 1px 20px rgba(0,212,255,1);
+    color: rgba(0,212,255,1);
 }
+
+.container a{
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(0,212,255,1);
+    text-shadow: 1px 1px 20px rgba(2,0,36,1);
+}
+
+li {
+    list-style-type: none;
+    margin: 1rem;
+  }
+
+  footer{
+    background: rgb(2,0,36);
+    background: linear-gradient(243deg, rgba(2,0,36,1) 0%, rgba(99,99,173,1) 61%, rgba(0,212,255,1) 100%);
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+  }
+
+  footer a{
+    text-decoration: none;
+    color: #FFF;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px rgba(146,146,232,1), 0 0 30px rgba(146,146,232,1), 0 0 40px rgba(146,146,232,1), 0 0 55px rgba(146,146,232,1), 0 0 75px rgba(146,146,232,1);
+  }
