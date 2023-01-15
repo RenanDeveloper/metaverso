@@ -1,48 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Roboto:wght@100;400;700&display=swap');
 
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 50px;
+}
+
 body{
-    font-family: Montserrat, sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 .container{
-    margin: 0 auto;
-    padding: 1em;
-    text-align: justify;
-    color: #FFF;
-    background-repeat: round;
-    background: rgb(2,0,36);
-background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(146,146,232,1) 61%, rgba(0,212,255,1) 100%);
+  margin: 0 auto;
+  padding: 1em;
+  text-align: justify;
+  color: #FFF;
+  background-repeat: round;
+  background: rgb(2,0,36);
+  background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(146,146,232,1) 31%, rgba(0,212,255,1) 55%, rgba(2,0,36,1) 100%);
 }
 
-h1{
-    text-align: center;
-    text-shadow: 1px 1px 20px rgba(0,212,255,1);
-    color: rgba(0,212,255,1);
+header{
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .container a{
-    font-family: Roboto, sans-serif;
-    text-decoration: none;
-    font-weight: bold;
-    color: rgba(0,212,255,1);
-    text-shadow: 1px 1px 20px rgba(2,0,36,1);
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgba(0,212,255,1);
+  text-shadow: 1px 1px 20px rgba(2,0,36,1);
+}
+
+.container a .detalhamento{
+  font-size: 0.8rem;
+  color: #FDB731;
+}
+
+ul{
+  padding: 2px;
 }
 
 li {
-    list-style-type: none;
-    margin: 1rem;
-  }
+  list-style-type: none;
+  margin: 1rem;
+}
 
-  footer{
-    background: rgb(2,0,36);
-    background: linear-gradient(243deg, rgba(2,0,36,1) 0%, rgba(99,99,173,1) 61%, rgba(0,212,255,1) 100%);
-    color: #FFF;
-    padding: 20px;
-    text-align: center;
-  }
+footer{
+  background: rgb(2,0,36);
+  background: linear-gradient(243deg,rgba(99,99,173,1) 0%, rgba(2,0,36,1) 25%, rgba(99,99,173,1) 61%, rgba(0,212,255,1) 80%, rgba(99,99,173,1) 100%);
+  color: #FFF;
+  padding: 20px;
+  text-align: center;
+}
 
-  footer a{
-    text-decoration: none;
-    color: #FFF;
-    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px rgba(146,146,232,1), 0 0 30px rgba(146,146,232,1), 0 0 40px rgba(146,146,232,1), 0 0 55px rgba(146,146,232,1), 0 0 75px rgba(146,146,232,1);
-  }
+footer a{
+  text-decoration: none;
+  color: #FFF;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px rgba(146,146,232,1);
+}
+
+@keyframes animation-destacar{
+  0%{background-color: rgb(255, 251, 0);}
+}
