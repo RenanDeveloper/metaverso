@@ -38,6 +38,15 @@ header{
   color: #FDB731;
 }
 
+img{
+  width: 100%;
+  box-shadow: 10px 10px 10px rgb(255, 255, 255);
+}
+
+.sem-borda{
+  box-shadow: none;
+}
+
 ul{
   padding: 2px;
 }
