@@ -1,0 +1,34 @@
+body{
+    background-image: url("../img/manutencao.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.titulo{
+    background-color: rgba(255, 255, 255, .7);
+    color: #000000;
+    height: 35px;
+    width: 400px;
+    border-radius: 15px;
+    border: rgb(74, 28, 182) 3px solid;
+    font-size: 1.5em;
+    
+   
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.destaque{
+    color: rgb(74, 28, 182);
+    font-weight: bold;
+}
